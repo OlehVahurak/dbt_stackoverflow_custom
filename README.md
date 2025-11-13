@@ -92,7 +92,5 @@ dbt deps     # Installs any necessary dbt packages
 dbt debug    # Verifies the connection and configuration
 dbt build    # Executes all models in the correct order
 ```
-2.  Install dbt packages: `dbt deps`
-3.  Build the data model: `dbt build`
 
 The fully transformed analytical tables will be created in your target BigQuery dataset.
